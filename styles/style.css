@@ -7,16 +7,58 @@ img{
    margin-top: 299px;
 }
 
-div {
+.car {
   width: 100px;
   height: 100px;
   background: url(../images/car.png);
     position: relative;
-  animation: mymove 15s infinite;
-  animation-timing-function: linear;
+  animation: mymove 35s infinite;
 }
 
 @keyframes mymove {
  from {left: 0px;}
+  to {left: 1900px;}
+}
+
+.birds{
+  position: relative;
+  animation: mymove2 15s infinite;
+  animation-timing-function: lianer;
+}
+.birds img{
+  width: 70px;
+  height: 70px;
+  margin-top: 40px;
+}
+@keyframes mymove2{
+  from {left: 1900px;}
+  to {left: 0px;}
+}
+.birds2{
+  position: relative;
+  animation: mymove3 15s infinite;
+  animation-timing-function: linear;
+}
+@keyframes mymove3{
+  from {left: 0px;}
+  to{left: 2000px;}
+}
+.birds2 img{
+  width: 90px;
+  height: 80px;
+  margin-top: 50px;
+}
+.ball{
+  position: relative;
+  animation: mymove4 15s infinite;
+  animation-timing-function: lianer;
+}
+.ball img{
+  width: 160px;
+  height: 160px;
+  
+}
+@keyframes mymove4{
+  from {left: 0px;}
   to {left: 1900px;}
 }
