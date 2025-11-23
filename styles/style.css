@@ -1,0 +1,22 @@
+
+body{
+  
+   background-image: url(../images/udabno);
+}
+img{
+   margin-top: 299px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background: url(../images/car.png);
+    position: relative;
+  animation: mymove 15s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes mymove {
+ from {left: 0px;}
+  to {left: 1900px;}
+}
